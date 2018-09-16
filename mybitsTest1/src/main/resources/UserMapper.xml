@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>   
+<mapper namespace="cn.itcast.dao.UserMapper">   
+<!-- select 查询 -->   
+	<select id="getUser" resultType="cn.itcast.domain.User">   
+		select *  from user   
+	</select>    
+</mapper>   
